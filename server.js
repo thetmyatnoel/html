@@ -93,7 +93,7 @@ app.post('/submit-inquiry', cors(), function(request, response){
         });
 });
 // Start server
-var serverPort = 10022;
+var serverPort = 3000;
 app.listen(serverPort, function() {
     console.log('Server running on port ' + serverPort);
 });
