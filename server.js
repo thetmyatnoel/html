@@ -10,7 +10,6 @@ const nodemailer = require('nodemailer');
 var app = express();
 app.use(cors());
 
-app.use(express.static('/root/html'));
 app.use(session({
     secret: 'secret',
     resave: true,
