@@ -830,7 +830,7 @@ sup.point {
   height: 91vh;
   overflow: hidden;
   background : linear-gradient(to bottom, #005ead 70%, transparent 50%), 
-  url("images/main/ma_un.png") no-repeat center bottom;
+  url("../images/main/ma_un.png") no-repeat center bottom;
 background-size: cover; /* Background color for the slider */
   position: relative;
   padding-top: 10rem;
